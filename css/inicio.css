@@ -18,19 +18,6 @@ header{
     padding: 3vh;
 }
 
-.menu ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.menu ul{
-    background-color: var(--cor-escura);
-}
-
-.menu ul li{
-    display: inline-block;
-}
-
 body{
     font-family: Arial;
     color: var(--cor-escura);
@@ -125,4 +112,17 @@ a:hover{
     font-weight: bolder;
     color: var(--cor-verde);
     margin: 10px;
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-escura);
+}
+
+.dp-menu ul li{
+    display: inline-block;
 }
