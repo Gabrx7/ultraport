@@ -54,10 +54,10 @@ body{
 
 .enviar:hover{
     transition: 0.7s;
-    background-color: rgb(255, 255, 149);
+    background-color: rgb(255, 255, 190);
     border: 3px solid black;
     padding: 6px;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 20px;
 }
 
