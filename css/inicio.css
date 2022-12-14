@@ -23,6 +23,8 @@ body{
     font-family: Arial;
     color: var(--cor-escura);
     background-color: var(--cor-branco);
+    align-items: center;
+    text-align: center;
 }
 
 .riscoheader{
