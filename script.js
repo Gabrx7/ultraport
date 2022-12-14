@@ -1,8 +1,9 @@
 function comecar(){
-    document.location.href = ('inicio.html')
+    
 }
 
 function boasvindas(){
+    document.location.href = ('inicio.html')
     var nome = document.getElementById('nome')
     var apre = document.getElementById('apre')
 
