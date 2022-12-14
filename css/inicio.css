@@ -112,21 +112,3 @@ a:hover{
     color: var(--cor-verde);
     margin: 10px;
 }
-
-.dp-menu ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.dp-menu ul{
-    background-color: var(--cor-detalhes-e-fundos);
-}
-
-.dp-menu ul li{
-    display: inline-block;
-}
-
-.dp-menu ul li a{
-    padding: 10px;
-    color: var(--cor-detalhes-e-fundos);
-}
