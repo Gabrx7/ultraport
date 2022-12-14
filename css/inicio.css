@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: yellow;
+    color: black;
+    padding: 3vh;
+}
+
+body{
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.riscoheader{
+    background-color: black;
+    height: 1vh;
+}
+
+.risco{
+    background-color: black;
+    height: 1vh;
+    margin: 20px;
+}
+
+.apresentacao{
+    margin: 20px;
+}
+
+.apre{
+    margin: 20px;
+}
+
+.nome {
+    background-color: white;
+    border: 3px solid black;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.enviar{
+    background-color: #ffff00;
+    border: 3px solid black;
+    padding: 5px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.enviar:hover{
+    transition: 0.7s;
+    background-color: rgb(255, 255, 149);
+    border: 3px solid black;
+    padding: 6px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.titulo{
+    margin: 20px;
+}
+
+.tituloctt{
+    margin: 10px;
+}
+
+.imgjs{
+    height: 80%;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.logowpp{
+    height: 20%;
+    width: 20%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+}
+a:hover{
+    transition: 0.7s;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(167, 170, 0);
+}
+
+.numberzap{
+    font-weight: bolder;
+    color: green;
+    margin: 10px;
+}
