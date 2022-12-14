@@ -1,29 +1,38 @@
+:root{
+    --cor-detalhes-e-fundos : yellow; 
+    --cor-branco : white;
+    --cor-amarelo-claro : rgb(255, 255, 197);
+    --cor-amarelo-escuro : rgb(150, 150, 0);
+    --cor-escura : black;
+    --cor-verde : green;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 header{
-    background-color: yellow;
-    color: black;
+    background-color: var(--cor-detalhes-e-fundos);
+    color: var(--cor-escura);
     padding: 3vh;
 }
 
 body{
     font-family: Arial;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: var(--cor-escura);
+    background-color: var(--cor-branco);
     align-items: center;
     text-align: center;
 }
 
 .riscoheader{
-    background-color: black;
+    background-color: var(--cor-escura);
     height: 1vh;
 }
 
 .risco{
-    background-color: black;
+    background-color: var(--cor-escura);
     height: 1vh;
     margin: 20px;
 }
@@ -37,16 +46,16 @@ body{
 }
 
 .nome {
-    background-color: white;
-    border: 3px solid black;
+    background-color: var(--cor-branco);
+    border: 3px solid var(--cor-escura);
     padding: 5px;
     font-weight: bold;
     margin-top: 10px;
 }
 
 .enviar{
-    background-color: #ffff00;
-    border: 3px solid black;
+    background-color: var(--cor-detalhes-e-fundos);
+    border: 3px solid var(--cor-escura);
     padding: 5px;
     font-weight: bold;
     margin: 20px;
@@ -54,8 +63,8 @@ body{
 
 .enviar:hover{
     transition: 0.7s;
-    background-color: rgb(255, 255, 190);
-    border: 3px solid black;
+    background-color: var(--cor-amarelo-claro);
+    border: 3px solid var(--cor-escura);
     padding: 5px;
     font-weight: bolder;
     margin: 20px;
@@ -74,8 +83,8 @@ body{
     width: 80%;
     max-width: 500px;
     margin: 20px;
-    background: black;
-    border: 4px solid rgb(0, 0, 0);
+    background: var(--cor-escura);
+    border: 4px solid var(--cor-escura);
 }
 
 .logowpp{
@@ -89,18 +98,18 @@ a{
     text-decoration: none;
     font-size: 17px;
     font-weight: bolder;
-    color: black;
+    color: var(--cor-escura);
 }
 a:hover{
     transition: 0.7s;
     text-decoration: none;
     font-size: 17px;
     font-weight: bolder;
-    color: rgb(167, 170, 0);
+    color: var(--cor-amarelo-escuro);
 }
 
 .numberzap{
     font-weight: bolder;
-    color: green;
+    color: var(--cor-verde);
     margin: 10px;
 }
