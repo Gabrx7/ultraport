@@ -23,7 +23,7 @@ header{
     padding: 0;
 }
 
-ul{
+.menu ul{
     background-color: var(--cor-escura);
 }
 
