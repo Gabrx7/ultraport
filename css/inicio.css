@@ -18,6 +18,11 @@ header{
     padding: 3vh;
 }
 
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
 body{
     font-family: Arial;
     color: var(--cor-escura);
