@@ -12,6 +12,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header{
     background-color: var(--cor-detalhes-e-fundos);
     color: var(--cor-escura);
@@ -22,8 +23,6 @@ body{
     font-family: Arial;
     color: var(--cor-escura);
     background-color: var(--cor-branco);
-    align-items: center;
-    text-align: center;
 }
 
 .riscoheader{
