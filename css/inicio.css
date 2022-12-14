@@ -126,3 +126,7 @@ a:hover{
 .dp-menu ul li{
     display: inline-block;
 }
+
+.dp-menu ul li a{
+    padding: 10px;
+}
