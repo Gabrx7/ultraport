@@ -27,6 +27,10 @@ header{
     background-color: var(--cor-escura);
 }
 
+.menu ul li{
+    display: inline-block;
+}
+
 body{
     font-family: Arial;
     color: var(--cor-escura);
