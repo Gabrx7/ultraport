@@ -23,6 +23,10 @@ header{
     padding: 0;
 }
 
+ul{
+    background-color: var(--cor-escura);
+}
+
 body{
     font-family: Arial;
     color: var(--cor-escura);
