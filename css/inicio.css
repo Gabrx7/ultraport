@@ -128,4 +128,5 @@ a:hover{
 
 .dp-menu ul li a{
     padding: 10px;
+    color: var(--cor-detalhes-e-fundos);
 }
