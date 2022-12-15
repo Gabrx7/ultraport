@@ -12,7 +12,7 @@ function boasvindas(){
     if (hr >= 6 && hr < 12){
         var hr = ('bom dia!')
     } else if ( hr >= 12 && hr < 18){
-        var h2 = ('boa tarde!')
+        var hr = ('boa tarde!')
     } else if ( hr >= 18 && hr < 24) {
         var hr = ('boa noite!')
     } else {
